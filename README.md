@@ -147,8 +147,8 @@ Sample responses:
 ---
 
 ## 🙏 Credits
-
-**Developer:** coreymillia with GitHub Copilot CLI  
+Original software by -- https://github.com/djark13/Simple-Magic-8-Ball
+**Destroyer:** coreymillia with GitHub Copilot CLI  
 **Inspired By:** Simple-Magic-8-Ball GitHub project (2 weeks old!)  
 **Response Contributors:**
 - Claude (Anthropic) - AI roasts and technical insults
