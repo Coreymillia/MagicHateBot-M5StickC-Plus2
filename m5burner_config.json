@@ -1,8 +1,8 @@
 {
-  "name": "Magic Hate Ball - Animated Sarcastic 8-Ball",
-  "version": "2.0.0",
+  "name": "Magic Hate Ball - Ultimate Chaos Art Edition",
+  "version": "3.0.0",
   "author": "coreymillia + GitHub Copilot CLI",
-  "description": "The brutally honest Magic 8-Ball with ANIMATED FACES! Shake for 138 savage responses while watching disappointed → angry → confused expressions cycle. Features improved wake-from-sleep with face animation instead of blank screen.",
+  "description": "The ULTIMATE brutally honest Magic 8-Ball! 613 savage responses with mesmerizing animated chaos art visualization. Features wild colorful sine wave borders and thick flowing center waves behind 3 animated face expressions. Most fun project ever!",
   "category": "Entertainment & Novelty",
   "device": "M5StickC Plus 2",
   "homepage": "",
@@ -10,29 +10,56 @@
   "icon": "",
   "features": [
     "🎭 3 Animated Face Expressions (Disappointed, Angry, Confused)",
-    "🎱 138 Savage & Sarcastic Responses",
-    "🤬 Brutally Honest Answers (Nothing Hateful, Just Hilarious)",
-    "🎯 Sarcastic Yes/No Mode",
-    "🔥 Responses for Every Level of Stupidity",
-    "📱 Shake Detection via IMU",
-    "✨ Smooth Fade-In Text Animations",
-    "💀 Face Cycles: Disappointed (white) → Angry (red) → Confused (yellow)",
+    "🌊 Chaos Art Visualization - Animated Sine Wave Backgrounds",
+    "🎨 Wild Colorful Borders (3 waves top, 3 waves bottom)",
+    "🌀 4 Thick Flowing Center Waves (Different speeds & amplitudes)",
+    "🎱 613 SAVAGE Sarcastic Responses (444% more than original!)",
+    "🤬 Brutally Honest Answers (PG-13, Hilarious)",
+    "⚡ Interruptible Animations (Shake to skip instantly)",
+    "⏱️ 1 Second Cooldown (3x faster response)",
+    "📖 3 Second Message Display (Time to read longer roasts)",
     "🕐 Clock Display (Always Visible)",
     "🔋 Battery Percentage with Color Coding",
     "💡 Adjustable Brightness (100% → 1% Night Mode)",
-    "⏰ Time Adjustment Mode",
-    "🌟 Improved Wake-from-Sleep (Shows Animated Face, Not Blank Screen)"
+    "⏰ Time Adjustment Mode"
   ],
   "animation_features": {
     "face_count": 3,
     "disappointed_face": "Half-closed eyes, disapproving frown, white outline",
-    "angry_face": "Narrowed eyes with angry eyebrows, deep frown, red outline",
-    "confused_face": "One raised eyebrow, wavy sideways mouth, yellow outline",
+    "angry_face": "Narrowed eyes with angry eyebrows, red outline",
+    "confused_face": "One raised eyebrow, wavy mouth, yellow outline",
     "animation_timing": "800ms per face expression",
     "startup_animation": "Cycles 3 times (7.2 seconds total)",
     "post_answer_animation": "Cycles 2 times (4.8 seconds total)",
     "wake_animation": "Cycles 2 times instead of blank screen",
     "idle_face": "Ends on disappointed face - judging you while waiting"
+  },
+  "chaos_art_visualization": {
+    "design": "Mesmerizing animated sine wave backgrounds",
+    "border_waves": {
+      "top_border": "3 wild single-pixel waves (6-7px amplitude)",
+      "bottom_border": "3 wild single-pixel waves (5-7px amplitude)",
+      "frequencies": "Different per wave (0.25-0.45)",
+      "colors": "color1, color2, cyan/magenta accents",
+      "style": "Wild, uneven, colorful framing"
+    },
+    "center_waves": {
+      "count": 4,
+      "thickness": "3 pixels (triple-thick)",
+      "wave_1": "Slow large (25px amplitude, 0.08 freq)",
+      "wave_2": "Medium speed (20px amplitude, 0.12 freq)",
+      "wave_3": "Fast small (15px amplitude, 0.15 freq)",
+      "wave_4": "Very slow opposite (18px amplitude, 0.06 freq)",
+      "animation": "Flows smoothly during face display",
+      "colors": "Primary colors + alpha-blended variants",
+      "feel": "Chaos art - spaced out, not crowded"
+    },
+    "color_schemes": {
+      "disappointed": "White/Grey borders + center waves, Cyan/Magenta accents",
+      "angry": "Red/Orange borders + center waves, Cyan/Magenta accents",
+      "confused": "Yellow/Cyan borders + center waves, Magenta accents"
+    },
+    "performance": "Minimal CPU impact, smooth 800ms cycles"
   },
   "response_categories": {
     "intelligence_insults": "Peak stupidity, brain cells filing for workers comp",
@@ -56,12 +83,14 @@
   "mechanics": {
     "shake_detection": "IMU accelerometer threshold: 2.0g total acceleration",
     "cooldown_period": "1 second between answers (responsive but prevents spam)",
+    "message_display": "3 seconds (up from 2 - time to read longer roasts!)",
     "thinking_animation": "Yellow 'Thinking...' message for 1.5 seconds",
     "text_fade_in": "25-step smooth fade animation (15ms per step)",
     "face_animation": "3-face cycle at 800ms per expression (interruptible by shake)",
+    "wave_animation": "Continuous sine wave flow during face display",
     "animation_interrupt": "Shake during face animation to skip ahead instantly",
     "auto_sleep": "60 seconds of inactivity triggers deep sleep",
-    "random_selection": "True random from 138 response pool"
+    "random_selection": "True random from 613 response pool"
   },
   "display_features": {
     "clock": "HH:MM format, bottom-right corner, visible during animations",
@@ -101,15 +130,16 @@
     "orientation": "Landscape",
     "screen_resolution": "240x135 pixels",
     "color_depth": "16-bit RGB565",
-    "memory_usage": "RAM: 8.6%, Flash: 35.2% (515KB merged)",
-    "total_responses": 138,
+    "memory_usage": "RAM: 10.9%, Flash: 39.0% (577KB merged)",
+    "total_responses": 613,
     "response_types": 9,
     "face_expressions": 3,
-    "animation_frames": "Smooth transitions with full screen redraws"
+    "animation_frames": "Smooth transitions with sine wave backgrounds",
+    "sine_waves": "7 total (3 top border, 3 bottom border, 4 center animated)"
   },
   "installation": {
     "method": "M5Burner",
-    "file": "MagicHateBot2.bin",
+    "file": "MagicHateBot3.bin",
     "flash_address": "0x0",
     "note": "Single merged file contains bootloader, partitions, and firmware"
   },
@@ -135,16 +165,15 @@
     "138 responses means low repetition rate",
     "Perfect passive-aggressive office desk toy"
   ],
-  "improvements_over_v1": [
-    "✅ Added 3 animated face expressions with personality",
-    "✅ Improved wake-from-sleep experience (animated faces instead of blank screen)",
-    "✅ Face reactions enhance the sarcastic responses",
-    "✅ Interruptible animations - shake to skip ahead instantly",
-    "✅ Reduced cooldown from 3 seconds to 1 second (3x more responsive!)",
-    "✅ Clock and battery overlay stay visible during animations",
-    "✅ Smooth face transitions with proper timing",
-    "✅ Enhanced user experience with visual feedback",
-    "✅ More engaging and entertaining interaction"
+  "improvements_over_v2": [
+    "✅ MASSIVE expansion: 138 → 613 responses (444% increase!)",
+    "✅ Added mesmerizing chaos art sine wave backgrounds",
+    "✅ 3 wild colorful border waves (top + bottom)",
+    "✅ 4 thick animated center waves (different speeds)",
+    "✅ Increased message display time (2s → 3s for longer roasts)",
+    "✅ Enhanced visual experience - hypnotic to watch",
+    "✅ Collaborated with ChatGPT, Claude, and Gemini for responses",
+    "✅ Perfect balance of chaos and artistry"
   ],
   "technical_details": {
     "imu_sensor": "Built-in M5StickC Plus2 IMU",
@@ -171,7 +200,8 @@
   },
   "version_history": {
     "1.0.0": "Initial release: 138 savage responses, static disappointed face",
-    "2.0.0": "ANIMATED: Added 3 face expressions (disappointed/angry/confused), improved wake-from-sleep, smooth cycling animations"
+    "2.0.0": "ANIMATED: Added 3 face expressions (disappointed/angry/confused), improved wake-from-sleep, smooth cycling animations",
+    "3.0.0": "ULTIMATE: 613 responses (444% increase!), chaos art sine wave backgrounds, wild colorful borders, 4 thick animated center waves, 3-second message display, most fun project ever!"
   },
   "credits": {
     "developer": "coreymillia with GitHub Copilot CLI",
